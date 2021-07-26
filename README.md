@@ -21,14 +21,15 @@ Richard W. Sharp\
 Patrick W. Zimmerman
 
 ### Use guide (first time, run in this order)
-##### Build dataframes from new data (WILL NEED TO SUPPLY NEW RAW DATA in CSV format - OUTPUT IS CSVs)
+##### 1 - Build dataframes from new data (WILL NEED TO SUPPLY NEW RAW DATA in CSV format - OUTPUT IS CSVs)
 /sandbox-singlepage/data_build.sh
-##### Build network graph from above dataframes
+##### 2 - Build network graph from above dataframes
 /sandbox-singlepage/build_graphs.py
-##### Build maps and other graphs
+##### 3 - Build maps and other graphs
 /sandbox-singlepage/build_network.py
-##### Launch dashboard server
+##### 4 - Launch dashboard server
 /sandbox-singlepage/application.py
+##### If needed, you can rebuild the networkx graphs or the dataframes individually by running 'data_build.sh jsons' or 'data_build.sh csvs', respectively
 
 
 #### Package requirements (as well as all their dependencies)
