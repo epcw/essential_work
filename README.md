@@ -6,12 +6,12 @@ Graphing: Python-based [Plotly Dash](https://plotly.com/dash/) app.  Network mod
 Data crunching: Python [Pandas](https://pandas.pydata.org/) with some pre-work in MySQL to parse text files pulled from the [US Census API](https://www.census.gov/data/developers.html).
 
 ### Data sources
-Bureau of Labor Statistics - Local Area Unemployment Statistics 2010-2021\
-Bureau of Labor Statistics - State and Area Employment, Hours, and Earnings 2010-2021\
-OSHA -  Inspection Reports for Washington State 2010-2021\
+Bureau of Labor Statistics (BLS) - Local Area Unemployment Statistics 2010-2021\
+Bureau of Labor Statistics (BLS) - State and Area Employment, Hours, and Earnings 2010-2021\
+Occupational Safety and Health Administration (OSHA) -  Inspection Reports for Washington State 2010-2021\
 US Census American Community Survey 5-year survey 2010-2019\
-US Small Business Administration - PPP FOIA 2020-2021\
-US Small Business Administration - COVID-19 Economic Injury Disaster Loans 2020-2021\
+US Small Business Administration (SBA) - Paycheck Protection Program (PPP) FOIA 2020-2021\
+US Small Business Administration (SBA) - COVID-19 Economic Injury Disaster Loans 2020-2021\
 Washington Employment Security Department – Workforce Supply and Demand Report 2019-2021\
 Washington Secretary of State – Business starts 2010-2021\
 City of Seattle Open Data Project – Workplace discrimination complaints 2017-2020
