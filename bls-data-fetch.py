@@ -7,8 +7,8 @@ ROOTBEER = '' #local
 
 headers = {'Content-type': 'application/json'}
 #serieslist = ['SMU53426440000000001'] #use to build this list through testing individual series
-# individual series source exmaple https://data.bls.gov/timeseries/MLUMS53NN0001003?data_tool=XGtable
-# list of series - https://www.bls.gov/sae/additional-resources/list-of-published-state-and-metropolitan-area-series/washington.htm
+#individual series source exmaple https://data.bls.gov/timeseries/MLUMS53NN0001003?data_tool=XGtable
+#list of series - https://www.bls.gov/sae/additional-resources/list-of-published-state-and-metropolitan-area-series/washington.htm
 serieslist = ['SMU53426600000000001',
               'LAUMT534266000000003',
               'MLUMS53NN0001003',
