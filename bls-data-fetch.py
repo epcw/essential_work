@@ -24,6 +24,6 @@ df['seriesName'] = ['StateAreaUnemployment(Sea-Bell-EverMSA)-ServiceSector(in_th
                     else 'MassLayoffEvents(WA-definedas50UIfilingsin5wks)' if i == 'MLUMS53NN0001003'
                     else '' for i in df['seriesID']]
 
-print(df) #for debugging
+#print(df) #for debugging
 filename = ROOTBEER + 'data/bls-data.csv'
 df.to_csv(filename,index=False) #comment out when testing unless you want to overwrite your datafile every time
