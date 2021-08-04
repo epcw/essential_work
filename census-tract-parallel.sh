@@ -30,7 +30,7 @@ q_human_test=$(echo $line | grep -ioP "(?<=^......\_....\,).*")
 
 #set dataset & year range
 dataset="acs5"
-for y in {2019..2019} #loop over year range  #REAL VERSION
+for y in {2015..2019} #loop over year range  #REAL VERSION
 do
 
 url="https://api.census.gov/data/$y/acs/$dataset?get=NAME,$q&for=tract:$location&key=3f9b852cbbc80fd057c367742e3b2b92244bb964" #insert the query and congressional district strings into the API call
